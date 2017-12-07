@@ -43,6 +43,6 @@ deb-src http://nginx.org/packages/ubuntu xenial nginx
 
 `sudo service nginx start`
 
-9, Configuration file is under `/etc/nginx/config.d/`
+12, Configuration file is under `/etc/nginx/config.d/`
 
 
