@@ -33,9 +33,16 @@ deb-src http://nginx.org/packages/ubuntu xenial nginx
 
 7, Type `Y` When prompted
 
-8, Start NGINX
+8, `sudo mkdir -p /var/www/myawesomewebsite.com/html`
+
+9, `sudo chown -R $User:$User /var/www/myawesomewebsite.com/html`
+
+10, `sudo chmod -R 755 /var/www`
+
+11, Start NGINX
 
 `sudo service nginx start`
 
-9, Edit  `/etc/nginx/site-available/default` to server build artifact
+9, Configuration file is under `/etc/nginx/config.d/`
+
 
